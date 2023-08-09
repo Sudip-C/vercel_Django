@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Read Items</title>
+</head>
+<body>
+    <h1>Read Items</h1>
+    <ul>
+        {% for key, item in items.items %}
+            <li>{{ key }}: {{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
